@@ -1,0 +1,12 @@
+interface:
+  display_name: searchmode
+  short_description: A skill that must be used before searching.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
